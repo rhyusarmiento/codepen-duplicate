@@ -1,0 +1,125 @@
+/* nav bar */
+.navigationWrapper {
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    align-items: center;
+}
+
+.navigationWrapper > .logo {
+    height: 100%;
+    width: 200px;
+    display: flex;
+    align-items: center;
+}
+
+.navigationWrapper > .logo img {
+    width: 100%;    
+    padding-left: 35px;
+}
+
+.navigationWrapper > .navWrapper {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+/* center column */
+.centerColumn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 120px;
+    margin-left: 50px;
+}
+
+.centerColumn > .header {
+    color: #cea135;
+    font-size: 1.1rem;
+}
+
+.centerColumn > .linksSparkWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+    width: 100%;
+}
+
+.centerColumn > .linksSparkWrapper > .linksWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.centerColumn > .linksSparkWrapper > .linksWrapper > .link {
+    display: flex;
+    justify-content: center;
+}
+
+.centerColumn > .linksSparkWrapper > .linksWrapper > .link p {
+    margin: 0px;
+    padding: 0px;
+}
+
+.centerColumn > .linksSparkWrapper > .sparkWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+    margin-left: 50px;
+    opacity: 80%;
+}
+
+.centerColumn > .linksSparkWrapper > .sparkWrapper p {
+    margin: 0px;
+    padding: 0px;
+}
+
+.centerColumn > .linksSparkWrapper > .sparkWrapper > .dropDown {
+    padding-top: 5px;
+    padding-left: 15px;
+    font-size: 1rem;
+}
+
+/* right Column */
+.rightColumn {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.rightColumn > .box {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+    height: 70px;
+    padding-right: 21px;
+    padding-left: 21px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    font-weight: bold;            
+}
+
+.rightColumn > .box > .dropDown {
+    padding-top: 3px;
+    padding-left: 10px;
+    font-size: 1.6rem;
+    color: #cea135;
+}
+
+.rightColumn > .search {
+    font-size: 2.2rem;
+    opacity: 65%;
+    padding-left: 10px;
+    padding-right: 10px;     
+}
